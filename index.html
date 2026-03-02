@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Urban Pulse Streetwear</title>
+  
+  <!-- Google Font: Bebas Neue -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #c5c0bb; /* Ivory background */
+      color: #4B3621; /* Dark brown text */
+    }
+
+    /* Navigation */
+    nav {
+      background: #8B6D5C; /* Donkey Brown nav */
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav h1 {
+      color: #FFFFF0; /* Brand name in ivory */
+      font-size: 28px;
+      margin: 0;
+      letter-spacing: 2px;
+      text-shadow: none;
+      font-family: Arial, sans-serif;
+    }
+
+    nav a {
+      color: #FFFFF0; /* links ivory */
+      text-decoration: none;
+      margin: 0 12px;
+      font-weight: bold;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: url("https://via.placeholder.com/1200x500/8B6D5C/FFFFF0?text=Urban+Pulse") center/cover;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-family: 'Bebas Neue', sans-serif; /* hero font */
+      font-size: 48px;
+      margin: 0;
+      color: #8B6D5C; /* Donkey Brown */
+      text-shadow: none; /* clean look */
+    }
+
+    /* Section Title */
+    .section-title {
+      text-align: center;
+      margin: 40px 0 20px;
+      font-size: 32px;
+      font-family: 'Bebas Neue', sans-serif;
+      color: #8B6D5C; /* Donkey Brown headings */
+    }
+
+    /* Products Grid */
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 0 20px 30px;
+    }
+
+    .card {
+      background: #6a687400; /* Ivory card background */
+      border-radius: 10px;
+      text-align: center;
+      padding-bottom: 10px;
+      transition: transform 0.2s;
+      color: #4B3621; /* Dark brown text inside cards */
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+    }
+
+    .card h3 {
+      margin: 10px 0 5px;
+      font-family: 'Bebas Neue', sans-serif;
+      color: #8B6D5C; /* Donkey brown product title */
+    }
+
+    .card p {
+      color: #4B3621;
+      font-weight: bold;
+    }
+
+    button {
+      background: #8B6D5C; /* Donkey brown button */
+      color: #FFFFF0; /* Ivory text */
+      border: none;
+      padding: 10px 20px;
+      margin-top: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      border-radius: 5px;
+      transition: 0.2s;
+    }
+
+    button:hover {
+      background: #A17C6B; /* lighter brown on hover */
+    }
+
+    /* Footer */
+    footer {
+      background: #8B6D5C; /* Donkey brown footer */
+      color: #FFFFF0; /* Ivory text */
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+  <h1>URBAN PULSE</h1>
+  <div>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+  <h2>Streetwear Collection</h2>
+</section>
+
+<!-- Products -->
+<h2 class="section-title">Featured Products</h2>
+<section class="products">
+
+  <div class="card">
+    <img src="https://via.placeholder.com/300x350/8B6D5C/FFFFF0?text=Hoodie" alt="Hoodie">
+    <h3>Neon Hoodie</h3>
+    <p>120 TND</p>
+    <button onclick="alert('DM us on Instagram to order!')">Buy Now</button>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/300x350/A17C6B/FFFFF0?text=T-Shirt" alt="T-Shirt">
+    <h3>Graphic Tee</h3>
+    <p>70 TND</p>
+    <button onclick="alert('DM us on Instagram to order!')">Buy Now</button>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/300x350/8B6D5C/FFFFF0?text=Joggers" alt="Joggers">
+    <h3>Street Joggers</h3>
+    <p>95 TND</p>
+    <button onclick="alert('DM us on Instagram to order!')">Buy Now</button>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/300x350/A17C6B/FFFFF0?text=Cap" alt="Cap">
+    <h3>Snapback Cap</h3>
+    <p>30 TND</p>
+    <button onclick="alert('DM us on Instagram to order!')">Buy Now</button>
+  </div>
+
+</section>
+
+<!-- Footer -->
+<footer>
+  © Urban Pulse | Designed for Urban Streetwear
+</footer>
+
+</body>
+</html>
